@@ -112,7 +112,7 @@ const StyledButton = styled.button`
   box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
 `; */
 
-const StyledInput = styled.input`
+/* const StyledInput = styled.input`
   display: block;
   width: 100%;
   background-color: #eee;
@@ -120,7 +120,7 @@ const StyledInput = styled.input`
   border-radius: 5px;
   margin: 10px 0 20px 0;
   box-sizing: border-box;
-`;
+`; */
 
 const StyledKey = styled.div`
   width: 100%;
@@ -149,7 +149,7 @@ function App() {
 
   const [appweb3, setAppweb3] = useState();
   const [appAccount, setAppAccount] = useState();
-  const [keyText, setKeyText] = useState('1. Login - 2. Select move - 3. Send tx')
+  //const [keyText, setKeyText] = useState()
   const [move, setMove] = useState("paper")
   const [txresult, setTxresult] = useState("result will be shown here.")
 
@@ -260,7 +260,7 @@ function App() {
           <StyledButton onClick={loadWeb3Modal}>Login</StyledButton>
         </div>
         <StyledKey>
-          <StyledContentBar txProgress={0} text={keyText}>
+          <StyledContentBar txProgress={0} text={'1. Login - 2. Select move - 3. Send tx'}>
           </StyledContentBar>
         </StyledKey>
       </Content>
