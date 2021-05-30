@@ -1,10 +1,11 @@
 # The repository for a rock, paper scissors dApp
 
 ## How to play?
-1. Login via Metamask - your account will be shown on top of the page
-2. Choose either `rock`, `paper`  `scissors`
-3. Send the transaction, which contains your move
-4. Wait for results to be displayed in the result box
+1. Access via https://rps-game-dapp.netlify.app/
+2. Login via Metamask - your account will be shown on top of the page
+3. Choose either `rock`, `paper`  `scissors`
+4. Send the transaction, which contains your move
+5. Wait for results to be displayed in the result box
 
 ## Where is the contract deployed?
 
@@ -18,4 +19,6 @@ You can view what is going on by checkin the transactions to the contract via et
 1. Create subgraph to show latest transactions
 2. Create subgraph to show leaderboard
 3. Increase frontend user guidance - UI/UX
+
+
 
