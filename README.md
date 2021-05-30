@@ -1,7 +1,7 @@
 # The repository for a rock, paper scissors dApp
 
 ## How to play?
-1. Login via Metamask - your accounr will be shown on top of the page
+1. Login via Metamask - your account will be shown on top of the page
 2. Choose either `rock`, `paper`  `scissors`
 3. Send the transaction, which contains your move
 4. Wait for results to be displayed in the result box
