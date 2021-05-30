@@ -149,34 +149,10 @@ function App() {
 
   const [appweb3, setAppweb3] = useState();
   const [appAccount, setAppAccount] = useState();
-  //const [keyText, setKeyText] = useState()
   const [move, setMove] = useState("paper")
   const [txresult, setTxresult] = useState("result will be shown here.")
 
-  /* const getBlockNumber = async () => {
-    var block = await appweb3.eth.getBlockNumber();
-    console.log(block);
-    console.log(appweb3.version);
-    //console.log(appweb3.provider);
-  };  */
 
-  /* const determineLoadingVariant = async (transactionprogress) => {
-    console.log('transaction progress prop is:', transactionprogress)
-    if (transactionprogress === 0) {
-      console.log('tx progress should be 0', transactionprogress)
-      return 'determinate'
-    }
-    else if (transactionprogress === 100) {
-      console.log('tx progress should be 100', transactionprogress)
-      return 'determinate'
-    }
-    else {
-      console.log('transaction should await to be mined')
-      return 'indeterminate'
-    }
-  } */
-/*   var variant = determineLoadingVariant(transactionProgress)
- */
 
 
   
@@ -184,7 +160,6 @@ function App() {
   const loadWeb3Modal = async () => {
     console.log("I have been pressed");
     const provider = await web3Modal.connect();
-    //setProvider(provider);
 
     console.log('waited');
     const web3 = new Web3(provider);
